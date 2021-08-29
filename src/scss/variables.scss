@@ -1,0 +1,82 @@
+// -------------- //
+// SCSS Variables //
+// -------------- //
+
+/* FONTS */
+
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Fira+Sans+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+// Fira Sans Condensed Font
+$fira-sans-font: "Fira Sans Condensed", "Helvetica Neue", sans-serif;
+%fira-sans-100 {
+  font-family: $fira-sans-font;
+  font-weight: 100;
+}
+%fira-sans-200 {
+  font-family: $fira-sans-font;
+  font-weight: 200;
+}
+%fira-sans-300 {
+  font-family: $fira-sans-font;
+  font-weight: 300;
+}
+%fira-sans-400 {
+  font-family: $fira-sans-font;
+  font-weight: 400;
+}
+%fira-sans-500 {
+  font-family: $fira-sans-font;
+  font-weight: 500;
+}
+%fira-sans-600 {
+  font-family: $fira-sans-font;
+  font-weight: 600;
+}
+%fira-sans-700 {
+  font-family: $fira-sans-font;
+  font-weight: 700;
+}
+%fira-sans-800 {
+  font-family: $fira-sans-font;
+  font-weight: 800;
+}
+%fira-sans-900 {
+  font-family: $fira-sans-font;
+  font-weight: 900;
+}
+
+// Fira Code Font
+$fira-code-font: "Fira code", source-code-pro, Menlo, Monaco, Consolas,
+  "Courier New", monospace, code-serif;
+%fira-code-300 {
+  font-family: $fira-code-font;
+  font-weight: 300;
+}
+%fira-code-400 {
+  font-family: $fira-code-font;
+  font-weight: 400;
+}
+%fira-code-500 {
+  font-family: $fira-code-font;
+  font-weight: 500;
+}
+%fira-code-600 {
+  font-family: $fira-code-font;
+  font-weight: 600;
+}
+%fira-code-700 {
+  font-family: $fira-code-font;
+  font-weight: 700;
+}
+
+/* ------------------------------------------ */
+
+/* COLORS */
+
+$navy-blue: #0d1b2a;
+$ocean-blue: #162b42;
+
+$sunny-yellow: #fffb9b;
+$sunset-yellow: #e1e0b9;
+
+$white: #fff;

@@ -1,0 +1,30 @@
+// -------------- //
+// Index SCSS //
+// -------------- //
+
+@import "/src/scss/variables.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: $navy-blue;
+  @extend %fira-sans-400;
+  color: $white;
+  font-size: 1.6rem;
+}
+
+code {
+  @extend %fira-code-400;
+}
