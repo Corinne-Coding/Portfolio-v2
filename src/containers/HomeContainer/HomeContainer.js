@@ -22,16 +22,24 @@ const HomeContainer = () => {
       <div>
         {language.descriptionText.map((item, index) => {
           if (index === 2 || index === 4) {
-            return <span className="description">{item}</span>;
+            return (
+              <span key={index} className="description">
+                {item}
+              </span>
+            );
           } else if (index === 3) {
             return (
-              <a className="description" href="https://www.lereacteur.io/">
+              <a
+                key={index}
+                className="description"
+                href="https://www.lereacteur.io/"
+              >
                 {item}
               </a>
             );
           } else if (index === 0) {
             return (
-              <div className="description">
+              <div key={index} className="description">
                 <span>{item}</span>
                 <code>
                   JavaScript / HTML / CSS / React / React Native / NodeJS.
@@ -39,7 +47,11 @@ const HomeContainer = () => {
               </div>
             );
           } else {
-            return <p className="description">{item}</p>;
+            return (
+              <p key={index} className="description">
+                {item}
+              </p>
+            );
           }
         })}
       </div>

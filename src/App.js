@@ -7,6 +7,7 @@ import LanguageContext from "./contexts/language-context";
 // Components
 import SocialNetworksLinks from "./components/SocialNetworksLinks/index";
 import HomeContainer from "./containers/HomeContainer/index";
+import ProjectsContainer from "./containers/ProjectsContainer/index";
 import LanguageButton from "./components/LanguageButton/index";
 import MailAddress from "./components/MailAddress/index";
 import Logo from "./components/Logo";
@@ -24,8 +25,7 @@ function App() {
       <LanguageContext.Provider value={language}>
         <LanguageButton setLanguage={setLanguage} />
         <HomeContainer />
-        <HomeContainer />
-        <HomeContainer />
+        <ProjectsContainer />
       </LanguageContext.Provider>
       <MailAddress />
     </>

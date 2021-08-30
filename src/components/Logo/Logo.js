@@ -7,7 +7,14 @@ const Logo = () => {
     window.location.reload();
   };
 
-  return <img src={logo} onClick={refreshPage} className="logo" />;
+  return (
+    <img
+      src={logo}
+      onClick={refreshPage}
+      className="logo"
+      alt="Corinne Pradier"
+    />
+  );
 };
 
 export default Logo;

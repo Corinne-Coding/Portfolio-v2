@@ -21,19 +21,19 @@
   .name {
     @extend %fira-sans-700;
     font-size: 7.2rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
 
   .subtitle {
     font-size: 4.2rem;
     color: $sunset-yellow;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
   }
 
   .description {
     @extend %fira-sans-300;
     font-size: 1.6rem;
-    line-height: 2.4rem;
+    line-height: 2.6rem;
   }
 
   a {

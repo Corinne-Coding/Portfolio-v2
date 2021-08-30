@@ -10,7 +10,18 @@
       "Le Reacteur",
       " bootcamp."
     ],
-    "resume": "Resume"
+    "resume": "Resume",
+    "projects": [
+      {
+        "type": "FullStack project",
+        "title": "To-do List App",
+        "imageURL": "https://res.cloudinary.com/cococloud/image/upload/v1630343905/professional/Portfolio-pictures/chat-app_xm8ksw.png",
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+        "technologies": ["Socket.IO", "React", "Express.js"],
+        "githubURL": "https://github.com/Corinne-Coding/To-Do-List-React-APP",
+        "netlifyURL": "https://to-do-list-corinne.netlify.app/"
+      }
+    ]
   },
   "french": {
     "switchLanguage": "english",
@@ -23,6 +34,17 @@
       "Le Reacteur",
       "."
     ],
-    "resume": "Mon CV"
+    "resume": "Mon CV",
+    "projects": [
+      {
+        "type": "Projet FullStack",
+        "title": "To-do List App",
+        "imageURL": "https://res.cloudinary.com/cococloud/image/upload/v1630343905/professional/Portfolio-pictures/chat-app_xm8ksw.png",
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+        "technologies": ["Socket.IO", "React", "Express.js"],
+        "githubURL": "https://github.com/Corinne-Coding/To-Do-List-React-APP",
+        "netlifyURL": "https://to-do-list-corinne.netlify.app/"
+      }
+    ]
   }
 }
