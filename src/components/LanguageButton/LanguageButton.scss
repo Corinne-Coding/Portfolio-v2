@@ -1,0 +1,31 @@
+@import "/src/scss/variables.scss";
+
+.language-button {
+  width: 15rem;
+  position: fixed;
+  top: 6rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+
+  &::before {
+    content: "";
+    display: block;
+    width: 6rem;
+    height: 1px;
+    background-color: $grey-smoke;
+  }
+
+  span {
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    transform: translate(0, 0%);
+    margin-left: 1rem;
+    font-size: 1.2rem;
+  }
+
+  span:hover {
+    transform: translate(5%, 0);
+    color: $sunny-yellow;
+  }
+}

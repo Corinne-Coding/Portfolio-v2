@@ -1,3 +1,5 @@
+import "./Icon.scss";
+
 // Icons
 import linkedinIconWhite from "../../utils/icons/linkedin-white.svg";
 import linkedinIconYellow from "../../utils/icons/linkedin-yellow.svg";
@@ -17,7 +19,7 @@ const Icon = ({ name, isHover }) => {
     }
   };
 
-  return <img src={generateIcon()} />;
+  return <img src={generateIcon()} className="icon" />;
 };
 
 export default Icon;

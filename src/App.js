@@ -1,16 +1,28 @@
+import { useState } from "react";
 import "./scss/App.scss";
+
+// Contexts
+import LanguageContext from "./contexts/language-context";
 
 // Components
 import SocialNetworksLinks from "./components/SocialNetworksLinks/index";
-import MainContainer from "./containers/MainContainer/MainContainer";
+import MainContainer from "./containers/MainContainer/index";
+import LanguageButton from "./components/LanguageButton/index";
 
 function App() {
+  const [language, setLanguage] = useState("eng");
+
   return (
-    <main>
+    <>
       <SocialNetworksLinks />
-      <MainContainer />
-      <MainContainer />
-    </main>
+      <LanguageContext.Provider value={language}>
+        <LanguageButton language={language} setLanguage={setLanguage} />
+        <main>
+          <MainContainer />
+          <MainContainer />
+        </main>
+      </LanguageContext.Provider>
+    </>
   );
 }
 
