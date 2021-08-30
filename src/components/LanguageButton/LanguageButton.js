@@ -4,17 +4,24 @@ import { useContext } from "react";
 // Contexts
 import LanguageContext from "../../contexts/language-context";
 
-const LanguageButton = ({ language, setLanguage }) => {
-  const theme = useContext(LanguageContext);
+// Data
+import textsJSON from "../../utils/data/texts.json";
+
+const LanguageButton = ({ setLanguage }) => {
+  const language = useContext(LanguageContext);
 
   return (
     <div className="language-button">
       <span
         onClick={() => {
-          setLanguage(language === "eng" ? "fr" : "eng");
+          setLanguage(
+            language === textsJSON.english
+              ? textsJSON.french
+              : textsJSON.english
+          );
         }}
       >
-        {theme === "eng" ? "french" : "english"}
+        {language.switchLanguage}
       </span>
     </div>
   );

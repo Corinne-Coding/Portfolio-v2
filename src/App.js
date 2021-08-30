@@ -6,21 +6,23 @@ import LanguageContext from "./contexts/language-context";
 
 // Components
 import SocialNetworksLinks from "./components/SocialNetworksLinks/index";
-import MainContainer from "./containers/MainContainer/index";
+import HomeContainer from "./containers/HomeContainer/index";
 import LanguageButton from "./components/LanguageButton/index";
 
+// Data
+import textsJSON from "./utils/data/texts.json";
+
 function App() {
-  const [language, setLanguage] = useState("eng");
+  const [language, setLanguage] = useState(textsJSON.english);
 
   return (
     <>
       <SocialNetworksLinks />
       <LanguageContext.Provider value={language}>
-        <LanguageButton language={language} setLanguage={setLanguage} />
-        <main>
-          <MainContainer />
-          <MainContainer />
-        </main>
+        <LanguageButton setLanguage={setLanguage} />
+
+        <HomeContainer />
+        {/* <MainContainer height="100vh" /> */}
       </LanguageContext.Provider>
     </>
   );

@@ -1,0 +1,20 @@
+@import "../../scss/variables.scss";
+
+.download-button {
+  border: solid 1px $sunny-yellow;
+  padding: 1.25rem 1.5rem;
+  font-size: 1.6rem;
+  margin-top: 3rem;
+  border-radius: 5px;
+  color: $sunny-yellow;
+
+  span {
+    color: $sunny-yellow;
+    font-style: normal;
+  }
+
+  &:hover {
+    background-color: $sunny-yellow-tint;
+    cursor: pointer;
+  }
+}

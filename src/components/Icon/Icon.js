@@ -19,7 +19,7 @@ const Icon = ({ name, isHover }) => {
     }
   };
 
-  return <img src={generateIcon()} className="icon" />;
+  return <img src={generateIcon()} className="icon" alt="social" />;
 };
 
 export default Icon;

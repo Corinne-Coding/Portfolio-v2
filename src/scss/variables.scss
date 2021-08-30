@@ -4,10 +4,10 @@
 
 /* FONTS */
 
-@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Fira+Sans+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Fira+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-// Fira Sans Condensed Font
-$fira-sans-font: "Fira Sans Condensed", "Helvetica Neue", sans-serif;
+// Fira Sans Font
+$fira-sans-font: "Fira Sans", "Helvetica Neue", sans-serif;
 %fira-sans-100 {
   font-family: $fira-sans-font;
   font-weight: 100;
@@ -78,7 +78,10 @@ $ocean-blue: #0d2846;
 
 $sunny-yellow: #fffb9b;
 $sunset-yellow: #e1e0b9;
+$sunny-yellow-tint: rgba(255, 251, 155, 0.1);
 
 $grey-smoke: #8e98a4;
 
 $white: #fff;
+
+$reacteur-purple: #5c48d2;
