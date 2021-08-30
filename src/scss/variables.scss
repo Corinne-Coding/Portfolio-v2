@@ -85,3 +85,22 @@ $grey-smoke: #8e98a4;
 $white: #fff;
 
 $reacteur-purple: #5c48d2;
+
+/* ------------------------------------------ */
+
+/* KEYFRAMES */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    margin-bottom: -35rem;
+  }
+  to {
+    margin-bottom: 0;
+    opacity: 1;
+  }
+}
+
+// animation-name: fadeIn;
+// animation-duration: 2s;
+// animation-delay: 1s;

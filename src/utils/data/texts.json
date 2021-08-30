@@ -1,10 +1,10 @@
 {
   "english": {
-    "switchLanguage": "english",
+    "switchLanguage": "french",
     "firstLine": "Hi, my name is",
     "subTitle": "I am a fullstack Web & Mobile Developer.",
     "descriptionText": [
-      "I mainly work with the following technologies : JavaScript / HTML / CSS / React / React Native / Node.js.",
+      "I mainly work with the following technologies : ",
       "I am a passionate and hardworking person, loving to embark on new challenging projects.",
       "I’m based in Paris and I also work as a teacher at ",
       "Le Reacteur",
@@ -13,11 +13,11 @@
     "resume": "Resume"
   },
   "french": {
-    "switchLanguage": "french",
+    "switchLanguage": "english",
     "firstLine": "Bonjour, je m'appelle",
     "subTitle": "Je suis développeuse fullstack Web & Mobile.",
     "descriptionText": [
-      "Je travaille principalement avec les technologies suivantes : JavaScript / HTML / CSS / React / React Native / Node.js.",
+      "Je travaille principalement avec les technologies suivantes : ",
       "Je suis une personne passionnée et travailleuse, aimant se lancer dans de nouveaux projets stimulants.",
       "Je suis basée à Paris et je travaille également comme enseignante au bootcamp ",
       "Le Reacteur",

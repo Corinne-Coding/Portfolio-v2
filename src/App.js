@@ -8,6 +8,8 @@ import LanguageContext from "./contexts/language-context";
 import SocialNetworksLinks from "./components/SocialNetworksLinks/index";
 import HomeContainer from "./containers/HomeContainer/index";
 import LanguageButton from "./components/LanguageButton/index";
+import MailAddress from "./components/MailAddress/index";
+import Logo from "./components/Logo";
 
 // Data
 import textsJSON from "./utils/data/texts.json";
@@ -17,30 +19,17 @@ function App() {
 
   return (
     <>
+      <Logo />
       <SocialNetworksLinks />
       <LanguageContext.Provider value={language}>
         <LanguageButton setLanguage={setLanguage} />
-
         <HomeContainer />
-        {/* <MainContainer height="100vh" /> */}
+        <HomeContainer />
+        <HomeContainer />
       </LanguageContext.Provider>
+      <MailAddress />
     </>
   );
 }
 
 export default App;
-
-/*
-
-   <p>
-      I mainly work with the following technologies :
-      <code>
-        JavaScript / HTML / CSS / React / React Native / Expo / Node.js
-      </code>
-      . I am a passionate and hardworking woman, loving to embark on new
-      challenging projects. I’m based in Paris and I also work as a teacher at
-      Le Reacteur bootcamp.
-    </p>
-
-
- */

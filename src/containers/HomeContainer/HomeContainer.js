@@ -29,6 +29,15 @@ const HomeContainer = () => {
                 {item}
               </a>
             );
+          } else if (index === 0) {
+            return (
+              <div className="description">
+                <span>{item}</span>
+                <code>
+                  JavaScript / HTML / CSS / React / React Native / NodeJS.
+                </code>
+              </div>
+            );
           } else {
             return <p className="description">{item}</p>;
           }

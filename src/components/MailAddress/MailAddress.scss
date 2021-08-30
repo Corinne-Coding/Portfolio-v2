@@ -1,0 +1,34 @@
+@import "/src/scss/variables.scss";
+
+.mail-address {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  bottom: 0rem;
+  right: 6rem;
+
+  &::after {
+    content: "";
+    display: block;
+    background-color: $sunset-yellow;
+    width: 1px;
+    height: 10rem;
+  }
+
+  a {
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.4rem;
+    @extend %fira-code-300;
+    margin-bottom: 2rem;
+    writing-mode: vertical-rl;
+  }
+
+  a:hover {
+    color: $sunny-yellow;
+    transform: translate(0, -1%);
+  }
+}

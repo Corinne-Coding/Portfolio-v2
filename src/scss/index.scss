@@ -4,6 +4,8 @@
 
 @import "/src/scss/variables.scss";
 
+/* GLOBAL RULES */
+
 * {
   box-sizing: border-box;
 }
@@ -26,5 +28,22 @@ body {
 }
 
 code {
-  @extend %fira-code-400;
+  @extend %fira-code-500;
 }
+
+/* ------------------------------------------ */
+
+/* CUSTOM SCROLLBAR */
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #011020;
+}
+::-webkit-scrollbar-thumb {
+  background: #8e98a4;
+  border-radius: 10px;
+}
+
+/* ------------------------------------------ */
