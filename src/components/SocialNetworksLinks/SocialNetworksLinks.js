@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./SocialNetworksLinks.scss";
 
 // Components
-import Icon from "../Icon/index";
+import ExternalLink from "../ExternalLink/index";
 
 const SocialNetworksLinks = () => {
   const [isLinkedinHover, setIsLinkedinHover] = useState(false);
@@ -10,26 +10,24 @@ const SocialNetworksLinks = () => {
 
   return (
     <ul className="social-networks-links">
-      <li
-        onMouseEnter={() => {
-          setIsLinkedinHover(true);
-        }}
-        onMouseLeave={() => {
-          setIsLinkedinHover(false);
-        }}
-      >
-        <Icon name="linkedin" isHover={isLinkedinHover} />
+      {/* Linkedin link */}
+      <li>
+        <ExternalLink
+          setFunction={setIsLinkedinHover}
+          name="linkedin"
+          isHover={isLinkedinHover}
+          url="https://www.linkedin.com/in/corinne-pradier-6610201b2/"
+        />
       </li>
 
-      <li
-        onMouseEnter={() => {
-          setIsGithubHover(true);
-        }}
-        onMouseLeave={() => {
-          setIsGithubHover(false);
-        }}
-      >
-        <Icon name="github" isHover={isGithubHover} />
+      {/* Github link */}
+      <li>
+        <ExternalLink
+          setFunction={setIsGithubHover}
+          name="github"
+          isHover={isGithubHover}
+          url="https://github.com/Corinne-Coding"
+        />
       </li>
     </ul>
   );

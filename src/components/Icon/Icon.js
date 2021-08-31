@@ -9,6 +9,8 @@ import githubCircleIconWhite from "../../utils/icons/github-1-white.svg";
 import githubCircleIconYellow from "../../utils/icons/github-1-yellow.svg";
 import externalLinkIconWhite from "../../utils/icons/external-link-white.svg";
 import externalLinkIconYellow from "../../utils/icons/external-link-yellow.svg";
+import QRCodeWhite from "../../utils/icons/qr-code-white.svg";
+import QRCodeYellow from "../../utils/icons/qr-code-yellow.svg";
 
 const Icon = ({ name, isHover }) => {
   const generateIcon = () => {
@@ -24,10 +26,14 @@ const Icon = ({ name, isHover }) => {
       return githubCircleIconWhite;
     } else if (name === "github-circle" && isHover) {
       return githubCircleIconYellow;
-    } else if (name === "external-link" && !isHover) {
+    } else if (name === "netlify-link" && !isHover) {
       return externalLinkIconWhite;
-    } else if (name === "external-link" && isHover) {
+    } else if (name === "netlify-link" && isHover) {
       return externalLinkIconYellow;
+    } else if (name === "qr-code" && !isHover) {
+      return QRCodeWhite;
+    } else if (name === "qr-code" && isHover) {
+      return QRCodeYellow;
     }
   };
 

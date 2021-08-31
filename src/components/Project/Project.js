@@ -3,18 +3,20 @@ import "./Project.scss";
 import { useState } from "react";
 
 // Components
-import Icon from "../Icon";
+import ExternalLink from "../ExternalLink/index";
 
 const Project = ({ item }) => {
-  const [isLinkHover, setIsLinkHover] = useState(false);
+  const [isNetlifyHover, setIsNetlifyHover] = useState(false);
   const [isGithubHover, setIsGithubHover] = useState(false);
+  const [isQRCodeHover, setIsQRCodeHover] = useState(false);
 
   return (
     <section className="project">
-      {/* Screenshot */}
+      {/* Project screenshot */}
       <div className="picture">
         <img src={item.imageURL} alt="project screenshot" />
       </div>
+
       {/* Texts */}
       <div className="texts">
         <div>
@@ -32,34 +34,40 @@ const Project = ({ item }) => {
             })}
           </p>
 
-          <div className="icons">
-            <a
-              href={item.githubURL}
-              target="_blank"
-              rel="noreferrer"
-              onMouseEnter={() => {
-                setIsLinkHover(true);
-              }}
-              onMouseLeave={() => {
-                setIsLinkHover(false);
-              }}
-            >
-              <Icon name="github-circle" isHover={isLinkHover} />
-            </a>
-            <a
-              href={item.netlifyURL}
-              target="_blank"
-              rel="noreferrer"
-              onMouseEnter={() => {
-                setIsGithubHover(true);
-              }}
-              onMouseLeave={() => {
-                setIsGithubHover(false);
-              }}
-            >
-              <Icon name="external-link" isHover={isGithubHover} />
-            </a>
-          </div>
+          <ul className="icons">
+            {item.githubURL && (
+              <li>
+                <ExternalLink
+                  setFunction={setIsGithubHover}
+                  name="github-circle"
+                  isHover={isGithubHover}
+                  url={item.githubURL}
+                />
+              </li>
+            )}
+
+            {item.netlifyURL && (
+              <li>
+                <ExternalLink
+                  setFunction={setIsNetlifyHover}
+                  name="netlify-link"
+                  isHover={isNetlifyHover}
+                  url={item.netlifyURL}
+                />
+              </li>
+            )}
+
+            {item.qrCode && (
+              <li>
+                <ExternalLink
+                  setFunction={setIsQRCodeHover}
+                  name="qr-code"
+                  isHover={isQRCodeHover}
+                  url={item.qrCode}
+                />
+              </li>
+            )}
+          </ul>
         </div>
       </div>
     </section>

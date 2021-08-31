@@ -6,23 +6,35 @@
     "descriptionText": [
       "I mainly work with the following technologies : ",
       "I am a passionate and hardworking person, loving to embark on new challenging projects.",
-      "I’m based in Paris and I also work as a teacher at ",
+      "I’m based in Paris and I also work as a programming teacher at ",
       "Le Reacteur",
       " bootcamp."
     ],
     "resume": "Resume",
     "projects": [
       {
-        "type": "FullStack project",
-        "title": "To-do List App",
+        "type": "FullStack Web Project",
+        "title": "Chat App",
         "imageURL": "https://res.cloudinary.com/cococloud/image/upload/v1630343905/professional/Portfolio-pictures/chat-app_xm8ksw.png",
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+        "description": "The Chat App project allows multiple users to chat in real time in a personalized or non-personalized room. Each user chooses a nickname before entering a room.",
         "technologies": ["Socket.IO", "React", "Express.js"],
-        "githubURL": "https://github.com/Corinne-Coding/To-Do-List-React-APP",
-        "netlifyURL": "https://to-do-list-corinne.netlify.app/"
+        "githubURL": "https://github.com/Corinne-Coding/Socket-client",
+        "netlifyURL": "https://socket-io-client-corinne.netlify.app/",
+        "qrCode": null
+      },
+      {
+        "type": "Front-end Mobile project",
+        "title": "Memory Game",
+        "imageURL": "https://res.cloudinary.com/cococloud/image/upload/v1630393779/professional/Portfolio-pictures/memory-game_qlda4z.png",
+        "description": "It is a simple game in which the pairs found and the moves are counted. The \"reset\" button allows player to restart a game. The phone vibrates when the game is won.",
+        "technologies": ["Expo"],
+        "githubURL": "https://github.com/Corinne-Coding/Memory-Game-RN",
+        "netlifyURL": null,
+        "qrCode": "exp://exp.host/@corinne-coding/memory-game"
       }
     ]
   },
+
   "french": {
     "switchLanguage": "english",
     "firstLine": "Bonjour, je m'appelle",
@@ -30,20 +42,31 @@
     "descriptionText": [
       "Je travaille principalement avec les technologies suivantes : ",
       "Je suis une personne passionnée et travailleuse, aimant se lancer dans de nouveaux projets stimulants.",
-      "Je suis basée à Paris et je travaille également comme enseignante au bootcamp ",
+      "Je suis basée à Paris et je travaille également comme enseignante en programmation au bootcamp ",
       "Le Reacteur",
       "."
     ],
     "resume": "Mon CV",
     "projects": [
       {
-        "type": "Projet FullStack",
-        "title": "To-do List App",
+        "type": "Projet Web FullStack",
+        "title": "Chat App",
         "imageURL": "https://res.cloudinary.com/cococloud/image/upload/v1630343905/professional/Portfolio-pictures/chat-app_xm8ksw.png",
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+        "description": "Le projet Chat App permet à plusieurs utilisateurs de discuter en temps réél dans un salon personnalisé ou non. Chaque utilisateur choisit un pseudo avant d'entrer dans un salon.",
         "technologies": ["Socket.IO", "React", "Express.js"],
-        "githubURL": "https://github.com/Corinne-Coding/To-Do-List-React-APP",
-        "netlifyURL": "https://to-do-list-corinne.netlify.app/"
+        "githubURL": "https://github.com/Corinne-Coding/Socket-client",
+        "netlifyURL": "https://socket-io-client-corinne.netlify.app/",
+        "qrCode": null
+      },
+      {
+        "type": "Projet Mobile Front-end",
+        "title": "Memory Game",
+        "imageURL": "https://res.cloudinary.com/cococloud/image/upload/v1630393779/professional/Portfolio-pictures/memory-game_qlda4z.png",
+        "description": "C'est un jeu simple dans lequel les pairs trouvées et les coups sont comptés. Le bouton \"reset\" permet au joueur de recommencer une partie. Le téléphone vibre lorsque la partie est gagnée.",
+        "technologies": ["Expo"],
+        "githubURL": "https://github.com/Corinne-Coding/Memory-Game-RN",
+        "netlifyURL": null,
+        "qrCode": "exp://exp.host/@corinne-coding/memory-game"
       }
     ]
   }
