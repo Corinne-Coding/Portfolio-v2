@@ -7,6 +7,7 @@
   position: fixed;
   bottom: 0;
   left: 6rem;
+  animation: appearance 0.2s linear 1.4s backwards;
 
   &::after {
     content: "";

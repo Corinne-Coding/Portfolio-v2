@@ -7,6 +7,7 @@
   margin-top: 3rem;
   border-radius: 5px;
   color: $sunny-yellow;
+  animation: fade-enter 0.5s linear 0.8s backwards;
 
   span {
     color: $sunny-yellow;

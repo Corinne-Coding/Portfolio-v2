@@ -19,7 +19,7 @@ const HomeContainer = () => {
 
       <p className="subtitle">{language.subTitle}</p>
 
-      <div>
+      <div className="description-container">
         {language.descriptionText.map((item, index) => {
           if (index === 2 || index === 4) {
             return (

@@ -8,6 +8,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  animation: appearance 0.2s linear 1.4s backwards;
 
   &::after {
     content: "";

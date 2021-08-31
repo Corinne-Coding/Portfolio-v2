@@ -16,18 +16,26 @@
     @extend %fira-sans-300;
     font-size: 1.6rem;
     margin-bottom: 2rem;
+    animation: fade-enter 0.5s linear 0s backwards;
   }
 
   .name {
     @extend %fira-sans-700;
     font-size: 7.2rem;
     margin-bottom: 2rem;
+    transform: translateY(0px);
+    animation: fade-enter 0.5s linear 0.2s backwards;
   }
 
   .subtitle {
     font-size: 4.2rem;
     color: $sunset-yellow;
     margin-bottom: 5rem;
+    animation: fade-enter 0.5s linear 0.4s backwards;
+  }
+
+  .description-container {
+    animation: fade-enter 0.5s linear 0.6s backwards;
   }
 
   .description {

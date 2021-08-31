@@ -1,7 +1,10 @@
+@import "../../scss/variables.scss";
+
 .logo {
   margin: 2rem 5rem;
   position: fixed;
   top: 0;
   left: 0;
   cursor: pointer;
+  animation: appearance 0.2s linear 1.4s backwards;
 }
