@@ -6,13 +6,18 @@ import { useContext } from "react";
 import LanguageContext from "../../contexts/language-context";
 
 // CV
-import CV from "../../utils/data/CV-Corinne-Pradier.pdf";
+import CVfr from "../../utils/data/CV-Corinne-Pradier-fr.pdf";
+import CVeng from "../../utils/data/CV-Corinne-Pradier-eng.pdf";
 
 const DownloadButton = () => {
   const language = useContext(LanguageContext);
 
   return (
-    <a className="download-button" href={CV} download>
+    <a
+      className="download-button"
+      href={language.switchLanguage === "french" ? CVeng : CVfr}
+      download
+    >
       <span>{language.resume}</span>
     </a>
   );

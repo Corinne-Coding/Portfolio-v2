@@ -48,6 +48,7 @@
         "technologies": [
           "Socket.IO",
           "React",
+          "Node.js",
           "Express.js",
           "Heroku",
           "Netlify"
@@ -73,6 +74,7 @@
         "description": "Create boards, each one containing a list of tasks. Tasks can have the status \"to do\" or \"done\". Boards and tasks can be edited or removed.",
         "technologies": [
           "React",
+          "Node.js",
           "Express.js",
           "Animate.css",
           "Heroku",
@@ -134,6 +136,7 @@
         "technologies": [
           "Socket.IO",
           "React",
+          "Node.js",
           "Express.js",
           "Heroku",
           "Netlify"
@@ -159,6 +162,7 @@
         "description": "Création de tableaux, chacun contenant une liste de tâches. Les tâches peuvent avoir le statut \"to do\" ou \"done\". Les tableaux et les tâches peuvent être modifiés ou supprimés.",
         "technologies": [
           "React",
+          "Node.js",
           "Express.js",
           "Animate.css",
           "Heroku",
