@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import "./scss/App.scss";
 
 // Contexts
@@ -22,8 +22,6 @@ import textsJSON from "./utils/data/texts.json";
 function App() {
   const [language, setLanguage] = useState(textsJSON.english);
   const [displayAnimation, setDisplayAnimation] = useState(false);
-
-  useEffect(() => {}, []);
 
   return displayAnimation ? (
     <TerminalAnimation setDisplayAnimation={setDisplayAnimation} />
