@@ -9,6 +9,7 @@ import HomeContainer from "./containers/HomeContainer/index";
 import ProjectsContainer from "./containers/ProjectsContainer/index";
 import TerminalAnimation from "./containers/TerminalAnimation";
 import AboutContainer from "./containers/AboutContainer/index";
+import StayInTouchContainer from "./containers/StayInTouchContainer/index";
 
 // Components
 import SocialNetworksLinks from "./components/SocialNetworksLinks/index";
@@ -37,10 +38,13 @@ function App() {
         <HomeContainer />
 
         {/* About */}
-        <AboutContainer language={language} />
+        <AboutContainer />
 
         {/* Projects */}
         <ProjectsContainer />
+
+        {/* Stay in touch */}
+        <StayInTouchContainer />
 
         <Footer />
       </LanguageContext.Provider>

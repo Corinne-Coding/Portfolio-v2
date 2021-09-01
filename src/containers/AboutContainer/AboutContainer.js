@@ -1,12 +1,19 @@
 import "./AboutContainer.scss";
 
+import { useContext } from "react";
+
 // Pictures
 import profilePicture from "../../utils/images/profile-pic.jpeg";
 
 // Imports from react-reveal package
 import Slide from "react-reveal/Slide";
 
-const AboutContainer = ({ language, inputRef }) => {
+// Context
+import LanguageContext from "../../contexts/language-context";
+
+const AboutContainer = ({ inputRef }) => {
+  const language = useContext(LanguageContext);
+
   return (
     <Slide bottom effect="fadeInUp" duration={1000}>
       <div className="about-container" ref={inputRef}>

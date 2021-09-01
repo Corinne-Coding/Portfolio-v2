@@ -39,52 +39,64 @@
         ]
       ]
     },
-    "projects": [
-      {
-        "type": "FullStack Web Project",
-        "title": "Chat App",
-        "imageURL": "https://res.cloudinary.com/cococloud/image/upload/v1630343905/professional/Portfolio-pictures/chat-app_xm8ksw.png",
-        "description": "The Chat App project allows multiple users to chat in real time in a personalized or non-personalized room. Each user chooses a nickname before entering a room.",
-        "technologies": [
-          "Socket.IO",
-          "React",
-          "Node.js",
-          "Express.js",
-          "Heroku",
-          "Netlify"
-        ],
-        "githubURL": "https://github.com/Corinne-Coding/Socket-client",
-        "netlifyURL": "https://socket-io-client-corinne.netlify.app/",
-        "qrCode": null
-      },
-      {
-        "type": "Front-end Mobile Project",
-        "title": "Memory Game",
-        "imageURL": "https://res.cloudinary.com/cococloud/image/upload/v1630487406/professional/Portfolio-pictures/memory-game_zqsddx.png",
-        "description": "It is a simple game in which the pairs found and the moves are counted. The \"reset\" button allows player to restart a game. The phone vibrates when the game is won.",
-        "technologies": ["Expo"],
-        "githubURL": "https://github.com/Corinne-Coding/Memory-Game-RN",
-        "netlifyURL": null,
-        "qrCode": "https://expo.dev/@corinne-coding/memory-game"
-      },
-      {
-        "type": "FullStack Web Project",
-        "title": "To-do list",
-        "imageURL": "https://res.cloudinary.com/cococloud/image/upload/v1630393833/professional/Portfolio-pictures/to-do-list-project_pslzrj.png",
-        "description": "Create boards, each one containing a list of tasks. Tasks can have the status \"to do\" or \"done\". Boards and tasks can be edited or removed.",
-        "technologies": [
-          "React",
-          "Node.js",
-          "Express.js",
-          "Animate.css",
-          "Heroku",
-          "Netlify"
-        ],
-        "githubURL": "https://github.com/Corinne-Coding/To-Do-List-React-APP",
-        "netlifyURL": "https://to-do-list-corinne.netlify.app/",
-        "qrCode": null
-      }
-    ]
+    "projects": {
+      "title": "My projects",
+      "list": [
+        {
+          "type": "FullStack Web Project",
+          "title": "Chat App",
+          "imageURL": "https://res.cloudinary.com/cococloud/image/upload/v1630343905/professional/Portfolio-pictures/chat-app_xm8ksw.png",
+          "description": "The Chat App project allows multiple users to chat in real time in a personalized or non-personalized room. Each user chooses a nickname before entering a room.",
+          "technologies": [
+            "Socket.IO",
+            "React",
+            "Node.js",
+            "Express.js",
+            "Heroku",
+            "Netlify"
+          ],
+          "githubURL": "https://github.com/Corinne-Coding/Socket-client",
+          "netlifyURL": "https://socket-io-client-corinne.netlify.app/",
+          "qrCode": null
+        },
+        {
+          "type": "Front-end Mobile Project",
+          "title": "Memory Game",
+          "imageURL": "https://res.cloudinary.com/cococloud/image/upload/v1630487406/professional/Portfolio-pictures/memory-game_zqsddx.png",
+          "description": "It is a simple game in which the pairs found and the moves are counted. The \"reset\" button allows player to restart a game. The phone vibrates when the game is won.",
+          "technologies": ["Expo"],
+          "githubURL": "https://github.com/Corinne-Coding/Memory-Game-RN",
+          "netlifyURL": null,
+          "qrCode": "https://expo.dev/@corinne-coding/memory-game"
+        },
+        {
+          "type": "FullStack Web Project",
+          "title": "To-do list",
+          "imageURL": "https://res.cloudinary.com/cococloud/image/upload/v1630393833/professional/Portfolio-pictures/to-do-list-project_pslzrj.png",
+          "description": "Create boards, each one containing a list of tasks. Tasks can have the status \"to do\" or \"done\". Boards and tasks can be edited or removed.",
+          "technologies": [
+            "React",
+            "Node.js",
+            "Express.js",
+            "Animate.css",
+            "Heroku",
+            "Netlify"
+          ],
+          "githubURL": "https://github.com/Corinne-Coding/To-Do-List-React-APP",
+          "netlifyURL": "https://to-do-list-corinne.netlify.app/",
+          "qrCode": null
+        }
+      ]
+    },
+    "getInTouch": {
+      "title": "Get in touch",
+      "texts": [
+        "I'm currently looking for new opportunities, so do not hesitate to contact me if you have a professional opportunity to offer.",
+        "You can also contact me if you just want to say hi !",
+        "I will be happy to read you."
+      ],
+      "mail": "Send me an email"
+    }
   },
 
   "french": {
@@ -127,51 +139,63 @@
         ]
       ]
     },
-    "projects": [
-      {
-        "type": "Projet Web FullStack",
-        "title": "Chat App",
-        "imageURL": "https://res.cloudinary.com/cococloud/image/upload/v1630343905/professional/Portfolio-pictures/chat-app_xm8ksw.png",
-        "description": "Le projet Chat App permet à plusieurs utilisateurs de discuter en temps réél dans un salon personnalisé ou non. Chaque utilisateur choisit un pseudo avant d'entrer dans un salon.",
-        "technologies": [
-          "Socket.IO",
-          "React",
-          "Node.js",
-          "Express.js",
-          "Heroku",
-          "Netlify"
-        ],
-        "githubURL": "https://github.com/Corinne-Coding/Socket-client",
-        "netlifyURL": "https://socket-io-client-corinne.netlify.app/",
-        "qrCode": null
-      },
-      {
-        "type": "Projet Mobile Front-end",
-        "title": "Memory Game",
-        "imageURL": "https://res.cloudinary.com/cococloud/image/upload/v1630487406/professional/Portfolio-pictures/memory-game_zqsddx.png",
-        "description": "C'est un jeu simple dans lequel les pairs trouvées et les coups sont comptés. Le bouton \"reset\" permet au joueur de recommencer une partie. Le téléphone vibre lorsque la partie est gagnée.",
-        "technologies": ["Expo"],
-        "githubURL": "https://github.com/Corinne-Coding/Memory-Game-RN",
-        "netlifyURL": null,
-        "qrCode": "https://expo.dev/@corinne-coding/memory-game"
-      },
-      {
-        "type": "FullStack Web Project",
-        "title": "To-do list",
-        "imageURL": "https://res.cloudinary.com/cococloud/image/upload/v1630393833/professional/Portfolio-pictures/to-do-list-project_pslzrj.png",
-        "description": "Création de tableaux, chacun contenant une liste de tâches. Les tâches peuvent avoir le statut \"to do\" ou \"done\". Les tableaux et les tâches peuvent être modifiés ou supprimés.",
-        "technologies": [
-          "React",
-          "Node.js",
-          "Express.js",
-          "Animate.css",
-          "Heroku",
-          "Netlify"
-        ],
-        "githubURL": "https://github.com/Corinne-Coding/To-Do-List-React-APP",
-        "netlifyURL": "https://to-do-list-corinne.netlify.app/",
-        "qrCode": null
-      }
-    ]
+    "projects": {
+      "title": "Mes projets",
+      "list": [
+        {
+          "type": "Projet Web FullStack",
+          "title": "Chat App",
+          "imageURL": "https://res.cloudinary.com/cococloud/image/upload/v1630343905/professional/Portfolio-pictures/chat-app_xm8ksw.png",
+          "description": "Le projet Chat App permet à plusieurs utilisateurs de discuter en temps réél dans un salon personnalisé ou non. Chaque utilisateur choisit un pseudo avant d'entrer dans un salon.",
+          "technologies": [
+            "Socket.IO",
+            "React",
+            "Node.js",
+            "Express.js",
+            "Heroku",
+            "Netlify"
+          ],
+          "githubURL": "https://github.com/Corinne-Coding/Socket-client",
+          "netlifyURL": "https://socket-io-client-corinne.netlify.app/",
+          "qrCode": null
+        },
+        {
+          "type": "Projet Mobile Front-end",
+          "title": "Memory Game",
+          "imageURL": "https://res.cloudinary.com/cococloud/image/upload/v1630487406/professional/Portfolio-pictures/memory-game_zqsddx.png",
+          "description": "C'est un jeu simple dans lequel les pairs trouvées et les coups sont comptés. Le bouton \"reset\" permet au joueur de recommencer une partie. Le téléphone vibre lorsque la partie est gagnée.",
+          "technologies": ["Expo"],
+          "githubURL": "https://github.com/Corinne-Coding/Memory-Game-RN",
+          "netlifyURL": null,
+          "qrCode": "https://expo.dev/@corinne-coding/memory-game"
+        },
+        {
+          "type": "FullStack Web Project",
+          "title": "To-do list",
+          "imageURL": "https://res.cloudinary.com/cococloud/image/upload/v1630393833/professional/Portfolio-pictures/to-do-list-project_pslzrj.png",
+          "description": "Création de tableaux, chacun contenant une liste de tâches. Les tâches peuvent avoir le statut \"to do\" ou \"done\". Les tableaux et les tâches peuvent être modifiés ou supprimés.",
+          "technologies": [
+            "React",
+            "Node.js",
+            "Express.js",
+            "Animate.css",
+            "Heroku",
+            "Netlify"
+          ],
+          "githubURL": "https://github.com/Corinne-Coding/To-Do-List-React-APP",
+          "netlifyURL": "https://to-do-list-corinne.netlify.app/",
+          "qrCode": null
+        }
+      ]
+    },
+    "getInTouch": {
+      "title": "Restons en contact",
+      "texts": [
+        "Je suis actuellement à la recherche de nouvelles opportunités, alors n'hésitez pas à me contacter si vous avez une opportunité professionnelle à proposer.",
+        "Vous pouvez aussi me contacter si vous voulez juste me dire bonjour !",
+        "Je serai ravie de vous lire."
+      ],
+      "mail": "Envoyez-moi un email"
+    }
   }
 }

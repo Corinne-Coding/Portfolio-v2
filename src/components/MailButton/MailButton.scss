@@ -1,0 +1,21 @@
+@import "../../scss/variables.scss";
+
+.mail-button {
+  border: solid 1px $sunny-yellow;
+  padding: 1.25rem 1.5rem;
+  font-size: 1.6rem;
+  margin-top: 3rem;
+  border-radius: 5px;
+  color: $sunny-yellow;
+  text-decoration: none;
+
+  span {
+    color: $sunny-yellow;
+    font-style: normal;
+  }
+
+  &:hover {
+    background-color: $sunny-yellow-tint;
+    cursor: pointer;
+  }
+}

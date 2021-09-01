@@ -1,9 +1,10 @@
 @import "../../scss/variables.scss";
 
 .about-container {
-  margin: 20rem 20rem 30rem 20rem;
+  margin: 20rem auto 30rem auto;
   display: flex;
   align-items: flex-start;
+  max-width: 1024px;
 
   .texts-container {
     padding-right: 6rem;
