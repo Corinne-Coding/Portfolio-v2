@@ -4,6 +4,8 @@
 
 Click on this link to take a look at the project : https://corinne-pradier.netlify.app/
 
+**Please note the responsive is in progress.**
+
 <br />
 
 ## About this project
