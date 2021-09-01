@@ -22,7 +22,7 @@ import textsJSON from "./utils/data/texts.json";
 
 function App() {
   const [language, setLanguage] = useState(textsJSON.english);
-  const [displayAnimation, setDisplayAnimation] = useState(false);
+  const [displayAnimation, setDisplayAnimation] = useState(true);
 
   return displayAnimation ? (
     <TerminalAnimation setDisplayAnimation={setDisplayAnimation} />
