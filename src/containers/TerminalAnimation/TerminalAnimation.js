@@ -40,7 +40,7 @@ const TerminalAnimation = ({ setDisplayAnimation }) => {
     setTimeout(() => {
       setDisplayAnimation(false);
     }, 6500);
-  }, []);
+  }, [setDisplayAnimation]);
 
   return (
     <div className="terminal-animation-container">

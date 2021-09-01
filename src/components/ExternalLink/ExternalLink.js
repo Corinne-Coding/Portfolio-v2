@@ -14,6 +14,7 @@ const ExternalLink = ({ setFunction, name, isHover, url }) => {
       }}
       href={url}
       target="_blank"
+      rel="noreferrer"
     >
       <Icon name={name} isHover={isHover} />
     </a>

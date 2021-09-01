@@ -1,17 +1,17 @@
-import "./Project.scss";
+import "./ProjectOrientationRight.scss";
 
 import { useState } from "react";
 
 // Components
 import ExternalLink from "../ExternalLink/index";
 
-const Project = ({ item }) => {
+const ProjectOrientationRight = ({ item }) => {
   const [isNetlifyHover, setIsNetlifyHover] = useState(false);
   const [isGithubHover, setIsGithubHover] = useState(false);
   const [isQRCodeHover, setIsQRCodeHover] = useState(false);
 
   return (
-    <section className="project">
+    <section className="project-orientation-right">
       {/* Project screenshot */}
       <div className="picture">
         <img src={item.imageURL} alt="project screenshot" />
@@ -74,4 +74,4 @@ const Project = ({ item }) => {
   );
 };
 
-export default Project;
+export default ProjectOrientationRight;

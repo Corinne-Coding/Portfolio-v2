@@ -11,26 +11,76 @@
       " bootcamp."
     ],
     "resume": "Resume",
+    "about": {
+      "title": "About me",
+      "texts": [
+        [
+          "Hello ! My name is Corinne. I discovered programming in 2019 when I was considering changing my job. I needed at that time new challenges, and I think I fell in the right place !"
+        ],
+        [
+          "I started my journey by learning ",
+          "HTML & CSS",
+          " on coding platforms like CodeCademy or FreeCodeCamp, on the advice of my brother who is actually a Software Java Developer (thanks bro !). I really enjoyed these languages so I continued my learning with ",
+          "JavaScript."
+        ],
+        [
+          "I quickly realized that there were a lot of things to learn and a lot of ways to do it, and I didn't have a clue where to really start to become a developer. So, I decided to enrol in a ",
+          "10-week intensive coding bootcamp : Le Reacteur",
+          ", where I learned basics of programming but most of all : ",
+          "React",
+          ". I was then recruited there as a teaching assistant, and I gradually became a programming teacher."
+        ],
+        [
+          "Since my bootcamp, I keep growing my technical skills by trying new things like implementing ",
+          "CSS pre-processors",
+          " in my projects, or by learning languages as ",
+          "TypeScript",
+          ". My journey in code is far from over and I know now I'm in the right place, doing what I really like."
+        ]
+      ]
+    },
     "projects": [
       {
         "type": "FullStack Web Project",
         "title": "Chat App",
         "imageURL": "https://res.cloudinary.com/cococloud/image/upload/v1630343905/professional/Portfolio-pictures/chat-app_xm8ksw.png",
         "description": "The Chat App project allows multiple users to chat in real time in a personalized or non-personalized room. Each user chooses a nickname before entering a room.",
-        "technologies": ["Socket.IO", "React", "Express.js"],
+        "technologies": [
+          "Socket.IO",
+          "React",
+          "Express.js",
+          "Heroku",
+          "Netlify"
+        ],
         "githubURL": "https://github.com/Corinne-Coding/Socket-client",
         "netlifyURL": "https://socket-io-client-corinne.netlify.app/",
         "qrCode": null
       },
       {
-        "type": "Front-end Mobile project",
+        "type": "Front-end Mobile Project",
         "title": "Memory Game",
-        "imageURL": "https://res.cloudinary.com/cococloud/image/upload/v1630393779/professional/Portfolio-pictures/memory-game_qlda4z.png",
+        "imageURL": "https://res.cloudinary.com/cococloud/image/upload/v1630487406/professional/Portfolio-pictures/memory-game_zqsddx.png",
         "description": "It is a simple game in which the pairs found and the moves are counted. The \"reset\" button allows player to restart a game. The phone vibrates when the game is won.",
         "technologies": ["Expo"],
         "githubURL": "https://github.com/Corinne-Coding/Memory-Game-RN",
         "netlifyURL": null,
         "qrCode": "exp://exp.host/@corinne-coding/memory-game"
+      },
+      {
+        "type": "FullStack Web Project",
+        "title": "To-do list",
+        "imageURL": "https://res.cloudinary.com/cococloud/image/upload/v1630393833/professional/Portfolio-pictures/to-do-list-project_pslzrj.png",
+        "description": "Create boards, each one containing a list of tasks. Tasks can have the status \"to do\" or \"done\". Boards and tasks can be edited or removed.",
+        "technologies": [
+          "React",
+          "Express.js",
+          "Animate.css",
+          "Heroku",
+          "Netlify"
+        ],
+        "githubURL": "https://github.com/Corinne-Coding/To-Do-List-React-APP",
+        "netlifyURL": "https://to-do-list-corinne.netlify.app/",
+        "qrCode": null
       }
     ]
   },
@@ -47,13 +97,47 @@
       "."
     ],
     "resume": "Mon CV",
+    "about": {
+      "title": "À propos de moi",
+      "texts": [
+        [
+          "Salut ! Je m'appelle Corinne. J'ai découvert la programmation en 2019 alors que je j'envisageais de changer de métier. J'avais besoin à ce moment-là de nouveaux challenges, et je pense que je suis tombée au bon endroit !"
+        ],
+        [
+          "J'ai commencé mon parcours en apprenant le ",
+          "HTML & CSS",
+          "sur des plateformes de code comme CodeCademy ou FreeCodeCamp, sur les conseils de mon frère qui est en fait développeur Java (thanks bro !). J'ai beaucoup apprécié ces langages, alors j'ai continué mon apprentissage avec ",
+          "JavaScript."
+        ],
+        [
+          "J'ai rapidement réalisé qu'il y avait beaucoup de choses à apprendre et tellement de façons de le faire, et je n'avais aucune idée par où vraiment commencer pour devenir développeur. J'ai donc décidé de m'inscrire à un ",
+          "coding bootcamp intensif de 10 semaines : Le Reacteur",
+          "où j'ai appris les bases de la programmation mais surtout : ",
+          "React.",
+          " J'y ai ensuite été recrutée en tant que professeure assistante, et je suis progressivement devenue enseignante en programmation."
+        ],
+        [
+          "Depuis mon bootcamp, je continue de développer mes compétences techniques en essayant de nouvelles choses comme implémenter des ",
+          "préprocesseurs CSS",
+          " dans mes projets, ou en apprenant des langages comme ",
+          "TypeScript",
+          ". Mon voyage dans le code est loin d'être terminé et je sais maintenant que je suis au bon endroit, et que je fais ce que j'aime vraiment."
+        ]
+      ]
+    },
     "projects": [
       {
         "type": "Projet Web FullStack",
         "title": "Chat App",
         "imageURL": "https://res.cloudinary.com/cococloud/image/upload/v1630343905/professional/Portfolio-pictures/chat-app_xm8ksw.png",
         "description": "Le projet Chat App permet à plusieurs utilisateurs de discuter en temps réél dans un salon personnalisé ou non. Chaque utilisateur choisit un pseudo avant d'entrer dans un salon.",
-        "technologies": ["Socket.IO", "React", "Express.js"],
+        "technologies": [
+          "Socket.IO",
+          "React",
+          "Express.js",
+          "Heroku",
+          "Netlify"
+        ],
         "githubURL": "https://github.com/Corinne-Coding/Socket-client",
         "netlifyURL": "https://socket-io-client-corinne.netlify.app/",
         "qrCode": null
@@ -61,12 +145,28 @@
       {
         "type": "Projet Mobile Front-end",
         "title": "Memory Game",
-        "imageURL": "https://res.cloudinary.com/cococloud/image/upload/v1630393779/professional/Portfolio-pictures/memory-game_qlda4z.png",
+        "imageURL": "https://res.cloudinary.com/cococloud/image/upload/v1630487406/professional/Portfolio-pictures/memory-game_zqsddx.png",
         "description": "C'est un jeu simple dans lequel les pairs trouvées et les coups sont comptés. Le bouton \"reset\" permet au joueur de recommencer une partie. Le téléphone vibre lorsque la partie est gagnée.",
         "technologies": ["Expo"],
         "githubURL": "https://github.com/Corinne-Coding/Memory-Game-RN",
         "netlifyURL": null,
         "qrCode": "exp://exp.host/@corinne-coding/memory-game"
+      },
+      {
+        "type": "FullStack Web Project",
+        "title": "To-do list",
+        "imageURL": "https://res.cloudinary.com/cococloud/image/upload/v1630393833/professional/Portfolio-pictures/to-do-list-project_pslzrj.png",
+        "description": "Création de tableaux, chacun contenant une liste de tâches. Les tâches peuvent avoir le statut \"to do\" ou \"done\". Les tableaux et les tâches peuvent être modifiés ou supprimés.",
+        "technologies": [
+          "React",
+          "Express.js",
+          "Animate.css",
+          "Heroku",
+          "Netlify"
+        ],
+        "githubURL": "https://github.com/Corinne-Coding/To-Do-List-React-APP",
+        "netlifyURL": "https://to-do-list-corinne.netlify.app/",
+        "qrCode": null
       }
     ]
   }

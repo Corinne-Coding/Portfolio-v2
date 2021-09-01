@@ -8,6 +8,7 @@ import LanguageContext from "./contexts/language-context";
 import HomeContainer from "./containers/HomeContainer/index";
 import ProjectsContainer from "./containers/ProjectsContainer/index";
 import TerminalAnimation from "./containers/TerminalAnimation";
+import AboutContainer from "./containers/AboutContainer/index";
 
 // Components
 import SocialNetworksLinks from "./components/SocialNetworksLinks/index";
@@ -20,23 +21,30 @@ import textsJSON from "./utils/data/texts.json";
 
 function App() {
   const [language, setLanguage] = useState(textsJSON.english);
-  const [displayAnimation, setDisplayAnimation] = useState(true);
+  const [displayAnimation, setDisplayAnimation] = useState(false);
 
   useEffect(() => {}, []);
 
   return displayAnimation ? (
     <TerminalAnimation setDisplayAnimation={setDisplayAnimation} />
   ) : (
-    <>
+    <main>
       <Logo />
       <SocialNetworksLinks />
       <LanguageContext.Provider value={language}>
         <LanguageButton setLanguage={setLanguage} />
+
+        {/* Welcome */}
         <HomeContainer />
+
+        {/* About */}
+        <AboutContainer language={language} />
+
+        {/* Projects */}
         <ProjectsContainer />
       </LanguageContext.Provider>
       <MailAddress />
-    </>
+    </main>
   );
 }
 
