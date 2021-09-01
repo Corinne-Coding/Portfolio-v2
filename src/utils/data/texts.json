@@ -115,12 +115,12 @@
       "title": "À propos de moi",
       "texts": [
         [
-          "Salut ! Je m'appelle Corinne. J'ai découvert la programmation en 2019 alors que je j'envisageais de changer de métier. J'avais besoin à ce moment-là de nouveaux challenges, et je pense que je suis tombée au bon endroit !"
+          "Salut ! Je m'appelle Corinne. J'ai découvert la programmation en 2019 alors que j'envisageais de changer de métier. J'avais besoin à ce moment-là de nouveaux challenges, et je pense que je suis tombée au bon endroit !"
         ],
         [
           "J'ai commencé mon parcours en apprenant le ",
           "HTML & CSS",
-          " sur des plateformes de code comme CodeCademy ou FreeCodeCamp, sur les conseils de mon frère qui est en fait développeur logiciel Java (thanks bro !). J'ai beaucoup apprécié ces langages, alors j'ai continué mon apprentissage avec ",
+          " sur des plateformes de code comme CodeCademy ou FreeCodeCamp, sur les conseils de mon frère qui est développeur logiciel Java (thanks bro !). J'ai beaucoup apprécié ces langages, alors j'ai poursuivi mon apprentissage avec ",
           "JavaScript."
         ],
         [
@@ -135,7 +135,7 @@
           "préprocesseurs CSS",
           " dans mes projets, ou en apprenant des langages comme ",
           "TypeScript",
-          ". Mon aventure dans le code est loin d'être terminé et je sais maintenant que je suis au bon endroit, faisant ce que j'aime vraiment."
+          ". Mon aventure dans le code est loin d'être terminée et je sais maintenant que je suis au bon endroit, faisant ce que j'aime vraiment."
         ]
       ]
     },
