@@ -72,7 +72,13 @@ const ProjectOrientationLeft = ({ item }) => {
 
         {/* Project screenshot */}
         <div className="picture">
-          <img src={item.imageURL} alt="project screenshot" />
+          <a
+            target="_blank"
+            href={item.netlifyURL ? item.netlifyURL : item.qrCode}
+            rel="noreferrer"
+          >
+            <img src={item.imageURL} alt="project screenshot" />
+          </a>
         </div>
       </section>
     </Slide>

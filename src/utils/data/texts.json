@@ -64,7 +64,7 @@
         "technologies": ["Expo"],
         "githubURL": "https://github.com/Corinne-Coding/Memory-Game-RN",
         "netlifyURL": null,
-        "qrCode": "exp://exp.host/@corinne-coding/memory-game"
+        "qrCode": "https://expo.dev/@corinne-coding/memory-game"
       },
       {
         "type": "FullStack Web Project",
@@ -106,13 +106,13 @@
         [
           "J'ai commencé mon parcours en apprenant le ",
           "HTML & CSS",
-          "sur des plateformes de code comme CodeCademy ou FreeCodeCamp, sur les conseils de mon frère qui est en fait développeur Java (thanks bro !). J'ai beaucoup apprécié ces langages, alors j'ai continué mon apprentissage avec ",
+          " sur des plateformes de code comme CodeCademy ou FreeCodeCamp, sur les conseils de mon frère qui est en fait développeur logiciel Java (thanks bro !). J'ai beaucoup apprécié ces langages, alors j'ai continué mon apprentissage avec ",
           "JavaScript."
         ],
         [
-          "J'ai rapidement réalisé qu'il y avait beaucoup de choses à apprendre et tellement de façons de le faire, et je n'avais aucune idée par où vraiment commencer pour devenir développeur. J'ai donc décidé de m'inscrire à un ",
+          "J'ai rapidement réalisé qu'il y avait beaucoup de choses à apprendre et tellement de façons de le faire, et je n'avais aucune idée par où vraiment commencer pour devenir développeuse. J'ai donc décidé de m'inscrire à un ",
           "coding bootcamp intensif de 10 semaines : Le Reacteur",
-          "où j'ai appris les bases de la programmation mais surtout : ",
+          ", où j'ai appris les bases de la programmation mais surtout : ",
           "React.",
           " J'y ai ensuite été recrutée en tant que professeure assistante, et je suis progressivement devenue enseignante en programmation."
         ],
@@ -121,7 +121,7 @@
           "préprocesseurs CSS",
           " dans mes projets, ou en apprenant des langages comme ",
           "TypeScript",
-          ". Mon voyage dans le code est loin d'être terminé et je sais maintenant que je suis au bon endroit, et que je fais ce que j'aime vraiment."
+          ". Mon aventure dans le code est loin d'être terminé et je sais maintenant que je suis au bon endroit, faisant ce que j'aime vraiment."
         ]
       ]
     },
@@ -150,7 +150,7 @@
         "technologies": ["Expo"],
         "githubURL": "https://github.com/Corinne-Coding/Memory-Game-RN",
         "netlifyURL": null,
-        "qrCode": "exp://exp.host/@corinne-coding/memory-game"
+        "qrCode": "https://expo.dev/@corinne-coding/memory-game"
       },
       {
         "type": "FullStack Web Project",

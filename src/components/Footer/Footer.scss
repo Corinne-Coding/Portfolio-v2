@@ -1,0 +1,30 @@
+@import "../../scss/variables.scss";
+
+.footer {
+  margin: 10rem 20rem 0rem 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 0;
+
+  p {
+    @extend %fira-sans-200;
+    line-height: 2.4rem;
+    font-size: 1.4rem;
+  }
+
+  p:last-child {
+    color: $grey-smoke;
+  }
+
+  a {
+    text-decoration: none;
+    color: $grey-smoke;
+    font-style: italic;
+  }
+
+  a:hover {
+    color: $brittany-green;
+  }
+}

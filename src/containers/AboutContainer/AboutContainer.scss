@@ -3,7 +3,7 @@
 .about-container {
   margin: 20rem 20rem 30rem 20rem;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 
   .texts-container {
     padding-right: 6rem;
@@ -43,11 +43,11 @@
   }
 
   .picture-container {
-    // border: solid orange 2px;
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 6rem;
 
     img {
       width: 100%;

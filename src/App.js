@@ -15,6 +15,7 @@ import SocialNetworksLinks from "./components/SocialNetworksLinks/index";
 import LanguageButton from "./components/LanguageButton/index";
 import MailAddress from "./components/MailAddress/index";
 import Logo from "./components/Logo";
+import Footer from "./components/Footer/index";
 
 // Data
 import textsJSON from "./utils/data/texts.json";
@@ -40,6 +41,8 @@ function App() {
 
         {/* Projects */}
         <ProjectsContainer />
+
+        <Footer />
       </LanguageContext.Provider>
       <MailAddress />
     </main>
