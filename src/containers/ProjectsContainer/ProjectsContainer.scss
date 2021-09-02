@@ -14,3 +14,33 @@
     text-align: center;
   }
 }
+
+/* ------------------------------------------ */
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1280px) {
+  .projects-container {
+    margin: 0rem auto;
+    max-width: 800px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .projects-container {
+    margin: 0rem auto;
+    max-width: 600px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 576px) {
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 320px) {
+}

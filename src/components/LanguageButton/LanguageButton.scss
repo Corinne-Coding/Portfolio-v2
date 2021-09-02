@@ -4,7 +4,6 @@
   position: fixed;
   top: 6rem;
   right: 0;
-  height: 2rem;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -30,4 +29,38 @@
     transform: translate(-5%, 0);
     color: $sunny-yellow;
   }
+}
+
+/* ------------------------------------------ */
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1280px) {
+  .language-button {
+    top: 5rem;
+
+    &::after {
+      width: 4rem;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .language-button {
+    &::after {
+      width: 2rem;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 576px) {
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 320px) {
 }

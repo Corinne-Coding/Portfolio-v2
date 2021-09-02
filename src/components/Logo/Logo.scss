@@ -1,10 +1,39 @@
 @import "../../scss/variables.scss";
 
 .logo {
-  margin: 2rem 5rem;
   position: fixed;
-  top: 0;
-  left: 0;
+  top: 2rem;
+  left: 5rem;
   cursor: pointer;
   animation: appearance 0.2s linear 1.4s backwards;
+}
+
+/* ------------------------------------------ */
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1280px) {
+  .logo {
+    position: fixed;
+    left: 3rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .logo {
+    position: fixed;
+    left: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 576px) {
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 320px) {
 }

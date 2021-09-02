@@ -1,14 +1,15 @@
 @import "/src/scss/variables.scss";
 
 .home-container {
-  margin: 15rem auto;
-  height: calc(100vh - 30rem);
+  margin: auto;
+  height: 100vh;
   @extend %fira-sans-400;
   color: white;
   font-size: 2rem;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  justify-content: center;
   max-width: 1024px;
 
   .first-line {
@@ -57,4 +58,32 @@
   code {
     font-size: 1.5rem;
   }
+}
+
+/* ------------------------------------------ */
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1280px) {
+  .home-container {
+    max-width: 800px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .home-container {
+    max-width: 600px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 576px) {
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 320px) {
 }

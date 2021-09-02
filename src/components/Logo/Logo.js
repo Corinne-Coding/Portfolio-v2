@@ -1,5 +1,6 @@
 import "./Logo.scss";
 
+// Images
 import logo from "../../utils/images/logo.svg";
 
 const Logo = () => {
