@@ -33,16 +33,19 @@
 }
 
 @media screen and (max-width: 1024px) {
-}
+  .stay-in-touch-container {
+    margin: 10rem auto 15rem auto;
 
-@media screen and (max-width: 768px) {
+    .title {
+      margin-bottom: 3rem;
+      font-size: 2.2rem;
+    }
+  }
 }
 
 @media screen and (max-width: 576px) {
-}
-
-@media screen and (max-width: 480px) {
-}
-
-@media screen and (max-width: 320px) {
+  .stay-in-touch-container {
+    margin: 0rem auto 10rem auto;
+    padding: 0 4rem;
+  }
 }

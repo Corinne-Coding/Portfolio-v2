@@ -62,10 +62,3 @@ const AboutContainer = ({ inputRef }) => {
 };
 
 export default AboutContainer;
-
-/*
-
-
-
-
-*/

@@ -1,5 +1,6 @@
-import { useState } from "react";
 import "./SocialNetworksLinks.scss";
+
+import { useState } from "react";
 
 // Components
 import ExternalLink from "../ExternalLink/index";

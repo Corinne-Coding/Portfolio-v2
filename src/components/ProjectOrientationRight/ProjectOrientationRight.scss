@@ -62,17 +62,22 @@
     }
 
     .technologies {
-      span {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      p {
         margin-left: 1.5rem;
         color: $sunny-yellow;
         font-size: 1.4rem;
+        line-height: 2.4rem;
       }
     }
 
     .icons {
       display: flex;
       justify-content: space-between;
-      margin-top: 3rem;
+      margin-top: 2rem;
 
       a {
         margin-left: 2rem;
@@ -115,6 +120,10 @@
         align-items: center;
       }
 
+      .title {
+        font-size: 2.2rem;
+      }
+
       .description-container {
         width: 100%;
         text-align: center;
@@ -124,13 +133,41 @@
 }
 
 @media screen and (max-width: 768px) {
+  .project-orientation-right {
+    .texts {
+      .description-container {
+        width: 90%;
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 576px) {
-}
+  .project-orientation-right {
+    margin-bottom: 20rem;
+    .texts {
+      .description-container {
+        width: 90%;
+      }
 
-@media screen and (max-width: 480px) {
-}
+      .technologies {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: calc(100vw - 3rem);
 
-@media screen and (max-width: 320px) {
+        p {
+          margin-left: 1rem;
+          margin-right: 1rem;
+        }
+      }
+
+      .icons {
+        a {
+          margin-right: 1rem;
+          margin-left: 1rem;
+        }
+      }
+    }
+  }
 }

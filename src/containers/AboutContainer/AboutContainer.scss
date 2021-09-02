@@ -21,6 +21,7 @@
 
       .bold {
         @extend %fira-sans-500;
+        color: $sunny-yellow;
       }
 
       a {
@@ -99,6 +100,7 @@
 
       .title {
         margin-bottom: 3rem;
+        font-size: 2.2rem;
       }
     }
 
@@ -113,13 +115,23 @@
 }
 
 @media screen and (max-width: 768px) {
+  .about-container {
+    margin: 10rem auto 10rem auto;
+  }
 }
 
 @media screen and (max-width: 576px) {
+  .about-container {
+    padding: 0 2rem;
+  }
 }
 
 @media screen and (max-width: 480px) {
-}
-
-@media screen and (max-width: 320px) {
+  .about-container {
+    .picture-container {
+      img {
+        width: 80%;
+      }
+    }
+  }
 }

@@ -1,5 +1,3 @@
-import "./ExternalLink.scss";
-
 // Components
 import Icon from "../Icon/index";
 

@@ -19,3 +19,13 @@
     cursor: pointer;
   }
 }
+
+/* ------------------------------------------ */
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 768px) {
+  .download-button {
+    animation: none;
+  }
+}

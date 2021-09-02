@@ -73,17 +73,51 @@
 @media screen and (max-width: 1024px) {
   .home-container {
     max-width: 600px;
+
+    .name {
+      font-size: 6.2rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .subtitle {
+      font-size: 3.2rem;
+      margin-bottom: 3rem;
+    }
   }
 }
 
 @media screen and (max-width: 768px) {
-}
+  .home-container {
+    padding: 3rem;
+    align-items: center;
+    .first-line {
+      animation: none;
+    }
 
-@media screen and (max-width: 576px) {
+    .name {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      animation: none;
+    }
+
+    .subtitle {
+      font-size: 1.8rem;
+      animation: none;
+    }
+
+    .description-container {
+      animation: none;
+    }
+
+    p,
+    div {
+      text-align: center;
+    }
+  }
 }
 
 @media screen and (max-width: 480px) {
-}
-
-@media screen and (max-width: 320px) {
+  .home-container {
+    padding: 1.5rem;
+  }
 }

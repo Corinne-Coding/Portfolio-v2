@@ -30,17 +30,20 @@
   .projects-container {
     margin: 0rem auto;
     max-width: 600px;
+
+    .title {
+      font-size: 2.2rem;
+    }
   }
 }
 
-@media screen and (max-width: 768px) {
-}
-
 @media screen and (max-width: 576px) {
-}
+  .projects-container {
+    margin: 0rem auto;
+    max-width: 600px;
 
-@media screen and (max-width: 480px) {
-}
-
-@media screen and (max-width: 320px) {
+    .title {
+      margin-bottom: 5rem;
+    }
+  }
 }

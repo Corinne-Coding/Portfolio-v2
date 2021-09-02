@@ -38,11 +38,11 @@ const ProjectOrientationRight = ({ item }) => {
               <p>{item.description}</p>
             </div>
 
-            <p className="technologies">
+            <div className="technologies">
               {item.technologies.map((techno, index) => {
-                return <span key={index}>{techno}</span>;
+                return <p key={index}>{techno}</p>;
               })}
-            </p>
+            </div>
 
             <ul className="icons">
               {item.githubURL && (

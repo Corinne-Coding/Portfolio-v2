@@ -9,5 +9,3 @@ const MailAddress = () => {
 };
 
 export default MailAddress;
-
-//
