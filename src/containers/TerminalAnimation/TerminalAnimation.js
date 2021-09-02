@@ -39,7 +39,7 @@ const TerminalAnimation = ({ setDisplayAnimation }) => {
 
     setTimeout(() => {
       setDisplayAnimation(false);
-    }, 6500);
+    }, 6000);
   }, [setDisplayAnimation]);
 
   return (
