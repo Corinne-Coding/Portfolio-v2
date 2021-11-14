@@ -64,7 +64,8 @@
     .technologies {
       display: flex;
       flex-wrap: wrap;
-      justify-content: center;
+      justify-content: flex-end;
+      width: 40rem;
 
       p {
         margin-left: 1.5rem;
@@ -97,6 +98,9 @@
       .description-container {
         width: 40rem;
       }
+      .technologies {
+        width: 35rem;
+      }
     }
   }
 }
@@ -128,6 +132,11 @@
         width: 100%;
         text-align: center;
       }
+
+      .technologies {
+        width: 100%;
+        justify-content: center;
+      }
     }
   }
 }
@@ -146,16 +155,7 @@
   .project-orientation-right {
     margin-bottom: 20rem;
     .texts {
-      .description-container {
-        width: 90%;
-      }
-
       .technologies {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        width: calc(100vw - 3rem);
-
         p {
           margin-left: 1rem;
           margin-right: 1rem;

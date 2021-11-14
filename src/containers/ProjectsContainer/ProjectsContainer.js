@@ -2,7 +2,7 @@ import "./ProjectsContainer.scss";
 
 import { useContext } from "react";
 
-// Component
+// Components
 import ProjectOrientationRight from "../../components/ProjectOrientationRight";
 import ProjectOrientationLeft from "../../components/ProjectOrientationLeft";
 

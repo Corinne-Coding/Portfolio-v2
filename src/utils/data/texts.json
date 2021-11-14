@@ -60,6 +60,26 @@
           "qrCode": null
         },
         {
+          "type": "FullStack Mobile Project",
+          "title": "Airbnb Clone",
+          "imageURL": "https://res.cloudinary.com/cococloud/image/upload/v1636898576/professional/Portfolio-pictures/airbnb-project_yqnxsd.png",
+          "description": "Airbnb clone : login & signup, get rooms list, get room details, get rooms location around user, modify profile.",
+          "technologies": [
+            "Expo",
+            "SecureStore",
+            "ImagePicker",
+            "Location & Map",
+            "Lottie",
+            "Swiper",
+            "Node.js",
+            "Express.js",
+            "Heroku"
+          ],
+          "githubURL": "https://github.com/Corinne-Coding/Airbnb-Mobile-APP",
+          "netlifyURL": null,
+          "qrCode": "https://expo.dev/@corinne-coding/Airbnb-Mobile-App"
+        },
+        {
           "type": "Front-end Mobile Project",
           "title": "Memory Game",
           "imageURL": "https://res.cloudinary.com/cococloud/image/upload/v1630487406/professional/Portfolio-pictures/memory-game_zqsddx.png",
@@ -160,6 +180,26 @@
           "qrCode": null
         },
         {
+          "type": "Projet Mobile FullStack",
+          "title": "Airbnb Clone",
+          "imageURL": "https://res.cloudinary.com/cococloud/image/upload/v1636898576/professional/Portfolio-pictures/airbnb-project_yqnxsd.png",
+          "description": "Airbnb clone : connection & inscription, liste des annonces, détails d'une annonce, localisations des annonces autour de l'utilisateur, modification du profil.",
+          "technologies": [
+            "Expo",
+            "SecureStore",
+            "ImagePicker",
+            "Location & Map",
+            "Lottie",
+            "Swiper",
+            "Node.js",
+            "Express.js",
+            "Heroku"
+          ],
+          "githubURL": "https://github.com/Corinne-Coding/Airbnb-Mobile-APP",
+          "netlifyURL": null,
+          "qrCode": "https://expo.dev/@corinne-coding/Airbnb-Mobile-App"
+        },
+        {
           "type": "Projet Mobile Front-end",
           "title": "Memory Game",
           "imageURL": "https://res.cloudinary.com/cococloud/image/upload/v1630487406/professional/Portfolio-pictures/memory-game_zqsddx.png",
@@ -170,7 +210,7 @@
           "qrCode": "https://expo.dev/@corinne-coding/memory-game"
         },
         {
-          "type": "FullStack Web Project",
+          "type": "Projet Web FullStack",
           "title": "To-do list",
           "imageURL": "https://res.cloudinary.com/cococloud/image/upload/v1630393833/professional/Portfolio-pictures/to-do-list-project_pslzrj.png",
           "description": "Création de tableaux, chacun contenant une liste de tâches. Les tâches peuvent avoir le statut \"to do\" ou \"done\". Les tableaux et les tâches peuvent être modifiés ou supprimés.",
