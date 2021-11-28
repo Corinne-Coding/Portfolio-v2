@@ -5,14 +5,19 @@ import { useContext } from "react";
 // Context
 import LanguageContext from "../../contexts/language-context";
 
+// Custom Hook
+import useWindowDimensions from "../../utils/hooks/useWindowDimensions";
+
 // Components
 import DownloadButton from "../../components/DownloadButton";
 
 const HomeContainer = () => {
   const language = useContext(LanguageContext);
 
+  const dimensions = useWindowDimensions();
+
   return (
-    <div className="home-container">
+    <div className="home-container" style={{ height: dimensions.windowHeight }}>
       <p className="first-line">{language.firstLine}</p>
 
       <p className="name">Corinne Pradier.</p>

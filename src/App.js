@@ -3,6 +3,9 @@ import { useState } from "react";
 // Contexts
 import LanguageContext from "./contexts/language-context";
 
+// Custom Hook
+import useWindowDimensions from "./utils/hooks/useWindowDimensions";
+
 // Containers
 import HomeContainer from "./containers/HomeContainer/index";
 import ProjectsContainer from "./containers/ProjectsContainer/index";
@@ -15,7 +18,6 @@ import SocialNetworksLinks from "./components/SocialNetworksLinks/index";
 import LanguageButton from "./components/LanguageButton/index";
 import MailAddress from "./components/MailAddress/index";
 import Logo from "./components/Logo";
-import Footer from "./components/Footer/index";
 
 // Data
 import textsJSON from "./utils/data/texts.json";
@@ -24,7 +26,9 @@ function App() {
   const [language, setLanguage] = useState(textsJSON.english);
   const [displayAnimation, setDisplayAnimation] = useState(true);
 
-  return displayAnimation ? (
+  const dimensions = useWindowDimensions();
+
+  return displayAnimation && dimensions.windowWidth > 600 ? (
     <TerminalAnimation setDisplayAnimation={setDisplayAnimation} />
   ) : (
     <main>
@@ -44,8 +48,6 @@ function App() {
 
         {/* Stay in touch */}
         <StayInTouchContainer />
-
-        <Footer />
       </LanguageContext.Provider>
       <MailAddress />
     </main>

@@ -1,11 +1,20 @@
 @import "../../scss/variables.scss";
 
 .stay-in-touch-container {
-  margin: 10rem auto 20rem auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 600px;
+  justify-content: space-between;
+  margin: auto;
+
+  .texts-container {
+    max-width: 600px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 
   .title {
     margin-bottom: 4rem;
@@ -27,15 +36,12 @@
 
 @media screen and (max-width: 1280px) {
   .stay-in-touch-container {
-    margin: 10rem auto 20rem auto;
     max-width: 500px;
   }
 }
 
 @media screen and (max-width: 1024px) {
   .stay-in-touch-container {
-    margin: 10rem auto 15rem auto;
-
     .title {
       margin-bottom: 3rem;
       font-size: 2.2rem;
@@ -45,7 +51,6 @@
 
 @media screen and (max-width: 576px) {
   .stay-in-touch-container {
-    margin: 0rem auto 10rem auto;
-    padding: 0 4rem;
+    padding: 0 2rem;
   }
 }

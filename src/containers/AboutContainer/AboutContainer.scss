@@ -89,8 +89,8 @@
     flex-direction: column;
 
     .texts-container {
-      padding-right: 0rem;
       flex: 1;
+      padding: 0 2rem;
 
       .texts {
         p {
@@ -116,7 +116,7 @@
 
 @media screen and (max-width: 768px) {
   .about-container {
-    margin: 10rem auto 10rem auto;
+    margin: 6rem auto 16rem auto;
   }
 }
 
