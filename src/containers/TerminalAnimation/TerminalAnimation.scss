@@ -39,7 +39,7 @@
     }
   }
 
-  .up-interface {
+  .top-interface {
     height: 3rem;
     background-color: rgb(224, 224, 224);
     border-top-right-radius: 5px;
@@ -96,7 +96,7 @@
       animation: typing 1.5s steps(21, end), blink-caret 0.5s step-end infinite;
     }
 
-    /* Animation 2 to make the first line appear */
+    /* Animation 2 to make the second line appear */
     .animation-2 p {
       overflow: hidden;
       border-right: 0.15rem solid black;
@@ -120,6 +120,20 @@
       50% {
         border-color: black;
       }
+    }
+  }
+
+  .skip-button {
+    cursor: pointer;
+    font-style: italic;
+    padding: 6px;
+    text-align: end;
+    margin-top: 4px;
+    font-size: 1.4rem;
+    color: $grey-smoke;
+
+    &:hover {
+      color: white;
     }
   }
 }
