@@ -24,7 +24,7 @@ import textsJSON from "./utils/data/texts.json";
 
 function App() {
   const [language, setLanguage] = useState(textsJSON.english);
-  const [displayAnimation, setDisplayAnimation] = useState(true);
+  const [displayAnimation, setDisplayAnimation] = useState(false); // must be true
 
   const dimensions = useWindowDimensions();
 

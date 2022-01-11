@@ -37,7 +37,7 @@ const HomeContainer = () => {
               <a
                 key={index}
                 className="description"
-                href="https://www.lereacteur.io/"
+                href="https://www.mazarine.com/fr/expertise/agence-digital-luxe-strategie-plateformes"
               >
                 {item}
               </a>
