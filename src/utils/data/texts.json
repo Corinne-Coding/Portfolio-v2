@@ -31,11 +31,9 @@
           ". I was then recruited there as a teaching assistant, and I gradually became a programming teacher."
         ],
         [
-          "Since my bootcamp, I keep growing my technical skills by trying new things like implementing ",
-          "CSS pre-processors",
-          " in my projects, or by learning languages as ",
-          "TypeScript",
-          ". My journey in code is far from over and I know now I'm in the right place, doing what I really like."
+          "After two years as a programming teacher, I decided to change my horizon and I was then recruited as a ",
+          "Front-End developer",
+          " at Mazarine Digital."
         ]
       ]
     },
@@ -63,7 +61,7 @@
           "type": "FullStack Mobile Project",
           "title": "Airbnb Clone",
           "imageURL": "https://res.cloudinary.com/cococloud/image/upload/v1636898576/professional/Portfolio-pictures/airbnb-project_yqnxsd.png",
-          "description": "Airbnb clone : login & signup, get rooms list, get room details, get rooms location around user, modify profile.",
+          "description": "In the Airbnb clone project, users can log or sign up, display rooms list, get one room details, get rooms around their location, and update their profile.",
           "technologies": [
             "Expo",
             "SecureStore",
@@ -93,7 +91,7 @@
           "type": "FullStack Web Project",
           "title": "To-do list",
           "imageURL": "https://res.cloudinary.com/cococloud/image/upload/v1630393833/professional/Portfolio-pictures/to-do-list-project_pslzrj.png",
-          "description": "Create boards, each one containing a list of tasks. Tasks can have the status \"to do\" or \"done\". Boards and tasks can be edited or removed.",
+          "description": "Creation of boards, each one containing a list of tasks. Tasks can have the status \"to do\" or \"done\". Boards and tasks can be edited or removed.",
           "technologies": [
             "React",
             "Node.js",
@@ -151,11 +149,9 @@
           " J'y ai ensuite été recrutée en tant que professeure assistante, et je suis progressivement devenue enseignante en programmation."
         ],
         [
-          "Depuis mon bootcamp, je continue de développer mes compétences techniques en essayant de nouvelles choses comme implémenter des ",
-          "préprocesseurs CSS",
-          " dans mes projets, ou en apprenant des langages comme ",
-          "TypeScript",
-          ". Mon aventure dans le code est loin d'être terminée et je sais maintenant que je suis au bon endroit, faisant ce que j'aime vraiment."
+          "Après deux années en tant que formatrice en programmation, j'ai décidé de changer d'horizon et j'ai ainsi été recrutée comme ",
+          "développeuse Front-End ",
+          "chez Mazarine Digital."
         ]
       ]
     },
@@ -183,7 +179,7 @@
           "type": "Projet Mobile FullStack",
           "title": "Airbnb Clone",
           "imageURL": "https://res.cloudinary.com/cococloud/image/upload/v1636898576/professional/Portfolio-pictures/airbnb-project_yqnxsd.png",
-          "description": "Airbnb clone : connection & inscription, liste des annonces, détails d'une annonce, localisations des annonces autour de l'utilisateur, modification du profil.",
+          "description": "Dans le projet Airbnb clone, les utilisateurs peuvent se connecter ou s'inscrire, afficher la liste des chambres, obtenir les détails d'une chambre, obtenir des chambres autour de leur emplacement, et mettre à jour leur profil.",
           "technologies": [
             "Expo",
             "SecureStore",
