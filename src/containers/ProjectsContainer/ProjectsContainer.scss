@@ -4,14 +4,15 @@
   margin: 0rem auto;
   display: flex;
   flex-direction: column;
+  align-items: center;
   max-width: 1024px;
 
-  .title {
-    margin-bottom: 10rem;
-    font-size: 2.6rem;
-    @extend %fira-sans-500;
-    color: $sunny-yellow;
+  .intro {
+    margin-bottom: 15rem;
     text-align: center;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    max-width: 60%;
   }
 }
 
@@ -23,6 +24,10 @@
   .projects-container {
     margin: 0rem auto;
     max-width: 800px;
+
+    .intro {
+      max-width: 80%;
+    }
   }
 }
 
@@ -44,6 +49,10 @@
 
     .title {
       margin-bottom: 5rem;
+    }
+
+    .intro {
+      max-width: 90%;
     }
   }
 }

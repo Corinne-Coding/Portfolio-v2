@@ -1,0 +1,9 @@
+@import "/src/scss/variables.scss";
+
+.title-comp {
+  margin-bottom: 4rem;
+  font-size: 2.6rem;
+  @extend %fira-sans-500;
+  color: $sunny-yellow;
+  text-align: center;
+}

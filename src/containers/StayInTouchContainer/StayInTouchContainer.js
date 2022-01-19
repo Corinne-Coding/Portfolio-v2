@@ -9,8 +9,9 @@ import LanguageContext from "../../contexts/language-context";
 import useWindowDimensions from "../../utils/hooks/useWindowDimensions";
 
 // Components
-import MailButton from "../../components/MailButton";
 import Footer from "../../components/Footer/index";
+import MailButton from "../../components/MailButton";
+import Title from "../../components/Title";
 
 // Imports from react-reveal package
 import Slide from "react-reveal/Slide";
@@ -25,10 +26,10 @@ const StayInTouchContainer = () => {
       className="stay-in-touch-container"
       style={{ height: dimensions.windowHeight }}
     >
-      {dimensions.windowWidth > 600 ? (
+      {dimensions.windowWidth > 1023 ? (
         <Slide bottom effect="fadeInUp" duration={1000}>
           <div className="texts-container">
-            <p className="title">{language.getInTouch.title}</p>
+            <Title text={language.getInTouch.title} />
             {language.getInTouch.texts.map((text, index) => {
               return <p key={index}>{text}</p>;
             })}
@@ -38,7 +39,7 @@ const StayInTouchContainer = () => {
         </Slide>
       ) : (
         <div className="texts-container">
-          <p className="title">{language.getInTouch.title}</p>
+          <Title text={language.getInTouch.title} />
           {language.getInTouch.texts.map((text, index) => {
             return <p key={index}>{text}</p>;
           })}

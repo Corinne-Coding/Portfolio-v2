@@ -6,6 +6,8 @@ const useWindowDimensions = () => {
     windowWidth: window.innerWidth,
   });
 
+  console.log(window.innerHeight);
+
   return windowDimensions;
 };
 

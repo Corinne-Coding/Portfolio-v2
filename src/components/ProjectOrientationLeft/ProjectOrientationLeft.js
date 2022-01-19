@@ -18,7 +18,7 @@ const ProjectOrientationLeft = ({ item }) => {
 
   const dimensions = useWindowDimensions();
 
-  return dimensions.windowWidth > 600 ? (
+  return dimensions.windowWidth > 1023 ? (
     <Slide bottom effect="fadeInUp" duration={1000}>
       <section className="project-orientation-left">
         {/* Texts */}

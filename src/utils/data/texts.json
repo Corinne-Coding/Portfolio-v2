@@ -24,8 +24,8 @@
           "JavaScript."
         ],
         [
-          "I quickly realized that there were a lot of things to learn and a lot of ways to do it, and I didn't have a clue where to really start to become a developer. So, I decided to enrol in a ",
-          "10-week intensive coding bootcamp : Le Reacteur",
+          "I quickly realized that there were a lot of things to learn and a lot of ways to do it, and I didn't have a clue where to really start to become a developer. So, I decided to enrol in a 10-week intensive coding bootcamp : ",
+          "Le Reacteur",
           ", where I learned basics of programming but most of all : ",
           "React",
           ". I was then recruited there as a teaching assistant, and I gradually became a programming teacher."
@@ -39,6 +39,7 @@
     },
     "projects": {
       "title": "My projects",
+      "intro": "Here are some of my personal projects. These projects allow me to train myself to implement new functionalities, or to put new technologies into practice. I always try to do something new when I embark on a project.",
       "list": [
         {
           "type": "FullStack Web Project",
@@ -123,8 +124,8 @@
     "descriptionText": [
       "Je travaille principalement avec les technologies suivantes : ",
       "Je suis une personne passionnée et travailleuse, aimant se lancer dans de nouveaux projets stimulants.",
-      "Je suis basée à Paris et je travaille également comme enseignante en programmation au bootcamp ",
-      "Le Reacteur",
+      "Je suis basée à Paris et je travaille également comme développeuse Front-End chez ",
+      "Mazarine Digital",
       "."
     ],
     "resume": "Mon CV",
@@ -141,8 +142,8 @@
           "JavaScript."
         ],
         [
-          "J'ai rapidement réalisé qu'il y avait beaucoup de choses à apprendre et tellement de façons de le faire, et je n'avais aucune idée par où vraiment commencer pour devenir développeuse. J'ai donc décidé de m'inscrire à un ",
-          "coding bootcamp intensif de 10 semaines : Le Reacteur",
+          "J'ai rapidement réalisé qu'il y avait beaucoup de choses à apprendre et tellement de façons de le faire, et je n'avais aucune idée par où vraiment commencer pour devenir développeuse. J'ai donc décidé de m'inscrire à un coding bootcamp intensif de 10 semaines : ",
+          "Le Reacteur",
           ", où j'ai appris les bases de la programmation mais surtout : ",
           "React.",
           " J'y ai ensuite été recrutée en tant que professeure assistante, et je suis progressivement devenue enseignante en programmation."
@@ -156,6 +157,7 @@
     },
     "projects": {
       "title": "Mes projets",
+      "intro": "Voici quelques uns de mes projets personnels. Ces projets me permettent de m'entrainer à implémenter de nouvelles fonctionnalités, ou bien de mettre en pratique de nouvelles technologies. J'essaie toujours de faire quelque chose de nouveau lorsque je me lance dans un projet.",
       "list": [
         {
           "type": "Projet Web FullStack",
